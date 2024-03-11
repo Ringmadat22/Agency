@@ -17,13 +17,14 @@ function About() {
 
     const Content = styled.div`
         width: 80%;
-        margin:100px 0 0 0;
+        margin:40px 0 0 0;
     `;
 
     const H1 = styled.h1`
         text-align: center;
         font-size: 2.5rem;
         font-weight: 600;
+        margin:60px 0;
     `;
 
     const P = styled.p`
