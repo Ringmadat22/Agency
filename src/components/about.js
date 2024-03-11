@@ -170,6 +170,7 @@ function About() {
                             <h1 style={{
                                 marginLeft:"40px",
                                 marginTop:"20px",
+                                fontSize:"1.2rem"
                             }}> <span style={{
                                 fontFamily:"cursive"
                             }}>A</span> Typography</h1>
@@ -216,6 +217,7 @@ function About() {
                             <h1 style={{
                                 marginLeft:"40px",
                                 marginTop:"20px",
+                                fontSize:"1.2rem"
                             }}> <span style={{
                                 fontFamily:"cursive"
                             }}><TiPencil style={{
@@ -261,6 +263,7 @@ function About() {
                             <h1 style={{
                                 marginLeft:"40px",
                                 marginTop:"20px",
+                                fontSize:"1.2rem"
                             }}> <span style={{
                                 fontFamily:"cursive"
                             }}><FaCode /></span> Development</h1>

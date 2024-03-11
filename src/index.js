@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './components/App';
 import About from './components/about';
+import Projects from './components/projects';
 
 
 
@@ -12,6 +13,7 @@ root.render(
   <React.StrictMode>
     <App />
     <About />
+    <Projects />
   </React.StrictMode>
 );
 
