@@ -153,16 +153,18 @@ nav label.barIcon:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 60vh;
 }
 
 .hero-content {
   width: 60%;
+  margin-top: 200px;
 }
 
 .hero-content h1 {
   font-size: 5rem;
   text-align: center;
+  color: #fff;
 }
 
 .hero-content h1 span {
@@ -175,6 +177,7 @@ nav label.barIcon:hover {
   text-align: center;
   line-height: 30px;
   padding: 20px 70px;
+  color: #fff;
 }
 
 .hero-buttons {
@@ -216,5 +219,5 @@ nav label.barIcon:hover {
 .hero-buttons .has-bg:hover {
   background-color: purple;
   border: 3px solid purple;
-  
+
 }
