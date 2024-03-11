@@ -226,21 +226,35 @@ nav label.barIcon:hover {
   transition: 0.3s;
 }
 
-.project-images-div{
-  transition: 0.3s;
+.project-images-div {
+  transition: background-color 0.3s;
   cursor: pointer;
   background-position: center;
   background-size: cover;
 }
 
-.project-images-div:hover{
-  background-color: rgba(225, 223, 223, 0.15);
+.project-images-div::before {
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: antiquewhite;
+}
 
+.project-images-div::before:hover {
+  background-color: lightblue; /* Change to the desired color */
 }
 
 
+
 .project-images-div-1 {
-  background-image:url('/Users/ringo/Desktop/Agency/src/images/front-page-project-1.jpg')
+  background-image:url('/Users/ringo/Desktop/Agency/src/images/front-page-project-1.jpg');
+}
+
+.project-images-div-1:hover {
+  background-image:url('/Users/ringo/Desktop/Agency/src/images/front-page-project-1.jpg');
+  background-color: rgba(225, 223, 223, 0.15);
 }
 
 .project-images-div-2 {
