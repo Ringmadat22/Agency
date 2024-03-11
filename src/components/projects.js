@@ -13,7 +13,7 @@ function Projects() {
 
     const UpperSection = styled.div`
         width:100;
-        background-color:gray;
+        background-color:rgba(240, 240, 240);
         height:25vh;
         display:flex;
         flex-direction:column;
@@ -28,10 +28,20 @@ function Projects() {
 
     const LowerSection = styled.div`
         width:100%;
-        padding:20px;
         background-color:blue;
     `
 
+    const LowerSectionContent = styled.div`
+        width:100%;
+        background-color:red;
+        display:flex;
+    `
+
+    const  ImgDiv = styled.div`
+        width:100%;
+        height:40vh;
+
+    `
 
     return(
         <>
@@ -46,7 +56,20 @@ function Projects() {
                     </UpperSection>
 
                     <LowerSection>
+                        <LowerSectionContent>
+                            <ImgDiv className='project-images-div-1  project-images-div'>
 
+                            </ImgDiv>
+
+                            <ImgDiv className='project-images-div-2 project-images-div'>
+                            </ImgDiv>
+
+                            <ImgDiv className='project-images-div-3 project-images-div'>
+                            </ImgDiv>
+
+                            <ImgDiv className='project-images-div-4 project-images-div'>
+                            </ImgDiv>
+                        </LowerSectionContent>
                     </LowerSection>
 
                 </Container>
