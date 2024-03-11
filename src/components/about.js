@@ -30,8 +30,15 @@ function About() {
     const P = styled.p`
         font-size: 1rem;
         color: white;
-        padding:
+        padding:10px 80px;
+        text-align:center;
+        line-height:30px;
+        margin-bottom:50px;
     `;
+
+    const CounterDiv = styled.div`
+        
+    `; 
 
     return (
         <Section>
